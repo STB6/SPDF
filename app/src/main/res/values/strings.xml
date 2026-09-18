@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">SPDF</string>
+    <string name="home_open">Open PDF</string>
+    <string name="home_settings">Global settings</string>
+    <string name="app_license" translatable="false">GPLv3</string>
+
+    <string name="reader_password_title">This file is encrypted</string>
+    <string name="reader_password_wrong">Incorrect password, try again</string>
+    <string name="reader_password_confirm">Open</string>
+    <string name="reader_password_label">Password</string>
+    <string name="reader_password_show">Show password</string>
+    <string name="reader_password_hide">Hide password</string>
+    <string name="reader_password_verifying">Checking…</string>
+    <string name="cancel">Cancel</string>
+    <string name="reader_error_cannot_open">Unable to open file</string>
+    <string name="reader_error_unavailable">File unavailable</string>
+    <string name="reader_error_unavailable_message">Select or open the file again.</string>
+    <string name="reader_error_detail_title">Error details</string>
+    <string name="reader_error_close">Close</string>
+    <string name="reader_error_detail_no_pages">This PDF has no pages.</string>
+    <string name="reader_error_detail_too_many_pages">This PDF claims %1$d pages, past the %2$d this app supports.</string>
+    <string name="reader_error_detail_page_too_large">Page %1$d is %2$d × %3$d points, past the supported size.</string>
+    <string name="reader_error_detail_too_large">This PDF is over %1$d MiB.</string>
+    <string name="reader_error_detail_uri">Can\'t open the URI: %1$s</string>
+
+    <string name="reader_toolbar_doc_dark_off">Dark Reader: off</string>
+    <string name="reader_toolbar_doc_dark_on">Dark Reader: on</string>
+    <string name="reader_toolbar_document_settings_description">Open session settings</string>
+    <string name="reader_toolbar_more">More</string>
+    <string name="reader_save_as">Save as</string>
+    <string name="reader_share">Share</string>
+
+    <string name="settings_title">Global settings</string>
+    <string name="settings_section_reading">Reading</string>
+    <string name="settings_section_display">Display</string>
+    <string name="settings_section_gestures">Gestures</string>
+    <string name="settings_section_about">About</string>
+    <string name="settings_scroll_direction">Page flow direction</string>
+    <string name="settings_doc_dark_trigger" translatable="false">Dark Reader</string>
+    <string name="settings_doc_dark_style">Inversion style</string>
+    <string name="settings_smart_skip_dark_documents">Skip dark documents</string>
+    <string name="settings_page_label_duration">Page number duration</string>
+    <string name="settings_page_label_immediate">Fade out at once</string>
+    <string name="settings_page_label_seconds">Fade out after %1$s seconds</string>
+    <string name="settings_page_label_always">Always show</string>
+    <string name="settings_keep_screen_on">Keep screen on</string>
+    <string name="settings_back_resets_zoom">Back resets zoom first</string>
+    <string name="settings_direction_down">Down</string>
+    <string name="settings_direction_right">Right</string>
+    <string name="settings_direction_left">Left</string>
+    <string name="settings_doc_dark_trigger_off">Off</string>
+    <string name="settings_follow_system">System</string>
+    <string name="settings_doc_dark_trigger_on">On</string>
+    <string name="settings_doc_dark_style_invert">Simple invert</string>
+    <string name="settings_doc_dark_style_smart">Smart invert</string>
+    <string name="settings_doc_dark_style_invert_description">Inverts every channel</string>
+    <string name="settings_doc_dark_style_smart_description">Flips light and dark but keeps hues</string>
+    <string name="settings_restore_defaults">Restore defaults</string>
+    <string name="settings_restore_defaults_message">All settings return to their initial values.</string>
+    <string name="settings_restore_defaults_confirm">Restore</string>
+    <string name="outline_title">Outline</string>
+    <string name="outline_empty">This document has no outline</string>
+    <string name="outline_untitled">(untitled)</string>
+    <string name="outline_jump">Go</string>
+    <string name="document_settings_title">Session settings</string>
+    <string name="document_settings_open_global">Global settings</string>
+    <string name="selection_copied">Copied</string>
+    <string name="reader_link_copied">Link copied</string>
+    <string name="reader_link_copy_failed">Unable to copy link</string>
+    <string name="reader_link_failed">Unable to open link</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_license">License</string>
+    <string name="settings_reset_to_global">Restore global settings</string>
+    <string name="selection_copy_failed">Unable to copy text</string>
+    <string name="selection_copy_failed_message">The selection has been kept. Try again.</string>
+    <string name="selection_too_large">The selection is too large to copy. Select a smaller section.</string>
+    <string name="reader_page_accessibility">PDF page %1$d of %2$d</string>
+    <string name="reader_previous_page">Previous page</string>
+    <string name="reader_next_page">Next page</string>
+    <string name="reader_zoom_in">Zoom in</string>
+    <string name="reader_reset_zoom">Fit page</string>
+    <string name="selection_select_page">Select page text</string>
+    <string name="selection_copy">Copy selection</string>
+    <string name="selection_clear">Clear selection</string>
+    <string name="selection_text_unavailable">Some text could not be extracted</string>
+    <string name="reader_share_failed">Sharing failed</string>
+    <string name="reader_save_failed">Save as failed</string>
+</resources>
